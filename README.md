@@ -5,25 +5,31 @@ To implement QR decomposition algorithm using the Gram-Schmidt method.
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-1.	Intialize the matrix Q and u
-2.	The vector u and e is given by
+STEP 1: Intialize the matrix Q and u
+STEP 2: The vector u and e is given by
 
-    ![eqn1](./ex4.jpg)
+![eqn1](./ex4.jpg)
 
-    ![eqn2](./ex6.jpg)
+![eqn2](./ex6.jpg)
 
-    ![eqn3](./ex3.jpg)
+![eqn3](./ex3.jpg)
 
-3.	Obtain the Q matrix   
-    ![eqn4](./ex1.jpg)
-4.	Construct the upper triangular matrix R
-    ![eqn5](./ex2.jpg)
+STEP 3: Obtain the Q matrix   
+
+![eqn4](./ex1.jpg)
+
+
+STEP 4: Construct the upper triangular matrix R
+
+![eqn5](./ex2.jpg)
+
 
 
 ## Program:
 ### Gram-Schmidt Method
 <img width="1248" height="394" alt="image" src="https://github.com/user-attachments/assets/ef4b804d-5683-4fb1-93ef-80674fd774a0" />
 
+```
 import numpy as np
 
 def QR_Decomposition(A):
@@ -57,12 +63,17 @@ a = np.array(eval(input()))
 QR_Decomposition(a)
 
 
-
+```
 
 ## Output
 <img width="1410" height="607" alt="image" src="https://github.com/user-attachments/assets/56ea5fb6-2041-43b2-b73a-a5bcdefd4464" />
 
 <img width="1396" height="218" alt="image" src="https://github.com/user-attachments/assets/a3150963-5d9d-45c9-be7b-da286a0d09ac" />
+
+
+
+
+
 
 
 ## Result
